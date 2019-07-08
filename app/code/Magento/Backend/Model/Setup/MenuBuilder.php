@@ -44,7 +44,7 @@ class MenuBuilder
     public function afterGetResult(Builder $subject, Menu $menu)
     {
         if ($this->docRootLocator->isPub()) {
-            $menu->remove('Magento_Backend::setup_wizard');
+            // $menu->remove('Magento_Backend::setup_wizard');
         }
         return $menu;
     }

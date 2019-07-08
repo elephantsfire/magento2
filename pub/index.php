@@ -24,7 +24,6 @@ HTML;
     exit(1);
 }
 
-$params = $_SERVER;
 $params[Bootstrap::INIT_PARAM_FILESYSTEM_DIR_PATHS] = array_replace_recursive(
     $params[Bootstrap::INIT_PARAM_FILESYSTEM_DIR_PATHS] ?? [],
     [

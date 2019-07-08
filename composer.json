@@ -39,6 +39,7 @@
         "magento/composer": "~1.4.0",
         "magento/magento-composer-installer": ">=0.1.11",
         "magento/zendframework1": "~1.14.1",
+        "mageplaza/magento-2-chinese-language-pack": "dev-master",
         "monolog/monolog": "^1.17",
         "oyejorge/less.php": "~1.7.0",
         "paragonie/sodium_compat": "^1.6",
