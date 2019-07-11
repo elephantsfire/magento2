@@ -11,8 +11,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
 		$installer = $setup;
 
 		$installer->startSetup();
-
-		if(version_compare($context->getVersion(), '1.1.0', '<')) {
+		if(version_compare($context->getVersion(), '1.0.1') < 0) {
 			if (!$installer->tableExists('aaxis_helloworld_post')) {
 				$table = $installer->getConnection()->newTable(
 					$installer->getTable('aaxis_helloworld_post')
